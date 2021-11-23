@@ -1,0 +1,24 @@
+Name: Rotterdam EyePACS AIROGS train set
+Description: The Rotterdam EyePACS AIROGS train set contains 101,442 color fundus images from 54,274 subjects and approximately 500 different sites with a heterogeneous ethnicity. All images were assigned by human experts with the labels referable glaucoma, no referable glaucoma, or ungradable. The patient ID is available for each image and patient age is present for most images. This S3 bucket contains the data for training data of the AIROGS challenge, which is held as part of ISBI 2022.
+Documentation: https://airogs.grand-challenge.org/
+Contact: c.w.devente@uva.nl
+ManagedBy: Rotterdam Eye Hospital
+UpdateFrequency: The full training set was published at the release.
+Tags:
+  - artificial intelligence
+  - color fundus photography
+  - glaucoma
+  - screening
+  - robustness
+License: CC BY-NC-ND 4.0
+Resources:
+  - Description: The data set contains 101,442 color fundus images as .jpg files. Each file corresponds to a unique eye. The train_nrg_rg.csv file contains the reference labels for RG (referable glaucoma) or NRG (no referable glaucoma), indexed by a unique ID for each image. This csv file also contains patient IDs and age.
+    ARN: TODO
+    Region: TODO
+    Type: S3 Bucket
+DataAtWork:
+  Tools & Applications:
+    - Title: AIROGS Challenge
+      URL: https://airogs.grand-challenge.org/
+      AuthorName: Quantitative Healthcare Analysis (qurAI), University of Amsterdam, Amsterdam, Netherlands
+      AuthorURL: https://www.qurai.nl/
